@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="För dig med enskild firma: bokför kvitton och fakturor löpande, få momsdeklarationen klar och NE-bilagan till inkomstdeklarationen förberedd vid årets slut.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Firma Enkel</a></div>
-  <nav class="top"><a href="#vad" data-ev="click_nav_vad">Det här får du</a><a href="price.html" data-ev="click_nav_pris">Pris</a><a href="#exempel" data-ev="click_nav_exempel">Exempel</a><a href="#start" data-ev="click_nav_start">Kom igång</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Firma Enkel</a>
+  <nav><a href="#vad" data-ev="click_nav_vad">Det här får du</a><a href="price.html" data-ev="click_nav_pris">Pris</a><a href="#exempel" data-ev="click_nav_exempel">Exempel</a><a href="#start" data-ev="click_nav_start">Kom igång</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Bokföring för enskild firma — momsdeklaration och NE-bilaga förberedda åt dig</h1>
-    <p class="sub">För enskilda näringsidkare: fotografera kvitton, ladda upp fakturor och kontoutdrag — bokföringen sköts löpande, momsdeklarationen blir klar i tid och NE-bilagan till inkomstdeklarationen förbereds vid årets slut.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Det här behöver jag</a>
-    <p class="cta-note">Tidig åtkomst · Ingen betalning tas emot på den här sidan ännu</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> För enskilda näringsidkare</p>
+      <h1 class="rise" style="--i:1" data-len="long">Bokföring för enskild firma&nbsp;<span class="soft">— momsdeklaration och NE-bilaga förberedda åt dig</span></h1>
+      <p class="rise" style="--i:2">För enskilda näringsidkare: fotografera kvitton, ladda upp fakturor och kontoutdrag — bokföringen sköts löpande, momsdeklarationen blir klar i tid och NE-bilagan till inkomstdeklarationen förbereds vid årets slut.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Det här behöver jag</a>
+      <p class="meta rise" style="--i:4">Tidig åtkomst · Ingen betalning tas emot på den här sidan ännu</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="36" fill="#0a1524" font-weight="600">enskild firma</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="292" font-size="32" fill="#0a1524">Kvitton och fakturor</text><rect x="130" y="370" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="402" font-size="32" fill="#0a1524">Momsdeklaration</text><rect x="130" y="480" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="512" font-size="32" fill="#0a1524">Påminnelser</text><rect x="700" y="260" width="380" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="320" font-size="32" fill="#0a1524" font-weight="600">Tidig åtkomst</text><rect x="740" y="420" width="48" height="200" fill="#ffffff" rx="8" /><rect x="820" y="480" width="48" height="140" fill="#12397a" rx="8" /><rect x="900" y="380" width="48" height="240" fill="#ffffff" rx="8" /><rect x="980" y="520" width="48" height="100" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>För</dt><dd>Enskilda näringsidkare</dd></div>
+      <div><dt>Moms</dt><dd>Momsdeklarationen blir klar</dd></div>
+      <div><dt>Kvitton</dt><dd>Fotografera kvitton</dd></div>
+      <div><dt>Åtkomst</dt><dd>Tidig åtkomst</dd></div>
+    </dl>
+  </section>
 
   <section id="vad" data-view="features_view">
-    <h2>Det här får du</h2>
-    <div class="grid">
-      <div class="card"><b>Kvitton och fakturor</b><span>Fotografera kvitton och ladda upp fakturor; de bokförs och kopplas till kontoutdraget.</span><br><a class="btn" href="price.html" data-ev="feature_kvitton">Det här behöver jag</a></div>
-      <div class="card"><b>Momsdeklaration</b><span>Momsen räknas fram ur bokföringen och deklarationen förbereds i tid.</span><br><a class="btn" href="price.html" data-ev="feature_moms">Det här behöver jag</a></div>
-      <div class="card"><b>NE-bilaga</b><span>NE-bilagan till inkomstdeklarationen förberedd ur årets bokföring.</span><br><a class="btn" href="price.html" data-ev="feature_ne">Det här behöver jag</a></div>
-      <div class="card"><b>Påminnelser</b><span>Påminnelse före varje deklarations- och betalningsdag.</span><br><a class="btn" href="price.html" data-ev="feature_paminnelser">Det här behöver jag</a></div>
+    <div class="stack"><h2>Det här får du</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="32" fill="#0a1524" font-weight="600">Kvitton och fakturor</text><rect x="110" y="200" width="40" height="40" fill="#dfe8f7" rx="8" /><polyline points="118,222 128,232 142,212" fill="none" stroke="#12397a" stroke-width="4" /><text x="170" y="230" font-size="30" fill="#0a1524">Fotografera kvitton</text><rect x="110" y="310" width="40" height="40" fill="#dfe8f7" rx="8" /><polyline points="118,332 128,342 142,322" fill="none" stroke="#12397a" stroke-width="4" /><text x="170" y="340" font-size="30" fill="#0a1524">kontoutdraget</text><rect x="170" y="470" width="220" height="16" fill="#dde2ea" rx="8" /><rect x="410" y="470" width="140" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Kvitton och fakturor</h3><p>Fotografera kvitton och ladda upp fakturor; de bokförs och kopplas till kontoutdraget.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kvitton">Det här behöver jag</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="120" y="70" width="520" height="460" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="160" y="140" font-size="32" fill="#0a1524" font-weight="600">Momsdeklaration</text><text x="160" y="200" font-size="30" fill="#566174">i tid</text><rect x="160" y="250" width="360" height="18" fill="#dde2ea" rx="8" /><rect x="160" y="290" width="280" height="18" fill="#b9c3d2" rx="8" /><rect x="160" y="330" width="400" height="18" fill="#dde2ea" rx="8" /><rect x="160" y="370" width="180" height="18" fill="#b9c3d2" rx="8" /><circle cx="560" cy="450" r="36" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="540,450 554,466 584,430" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Momsdeklaration</h3><p>Momsen räknas fram ur bokföringen och deklarationen förbereds i tid.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_moms">Det här behöver jag</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="250" height="380" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="110" width="250" height="380" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="84" y="170" font-size="30" fill="#0a1524" font-weight="600">NE-bilaga</text><text x="514" y="170" font-size="30" fill="#0a1524" font-weight="600">årets</text><rect x="84" y="220" width="180" height="16" fill="#dde2ea" rx="8" /><rect x="84" y="260" width="140" height="16" fill="#b9c3d2" rx="8" /><rect x="84" y="300" width="160" height="16" fill="#dde2ea" rx="8" /><rect x="514" y="220" width="170" height="16" fill="#dde2ea" rx="8" /><rect x="514" y="260" width="120" height="16" fill="#12397a" rx="8" /><rect x="514" y="300" width="190" height="16" fill="#b9c3d2" rx="8" /><polygon points="330,280 400,280 400,264 450,292 400,320 400,304 330,304" fill="#12397a" /></svg></div>
+        <h3>NE-bilaga</h3><p>NE-bilagan till inkomstdeklarationen förberedd ur årets bokföring.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ne">Det här behöver jag</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="32" fill="#0a1524" font-weight="600">Påminnelser</text><rect x="110" y="190" width="500" height="64" fill="#dfe8f7" rx="28" stroke="#12397a" stroke-width="4" /><rect x="130" y="206" width="28" height="32" fill="#12397a" rx="6" /><text x="176" y="232" font-size="30" fill="#0a1524">betalningsdag</text><rect x="110" y="290" width="500" height="64" fill="#dfe8f7" rx="28" /><rect x="130" y="306" width="28" height="32" fill="#b9c3d2" rx="6" /><text x="176" y="332" font-size="30" fill="#0a1524">varje</text></svg></div>
+        <h3>Påminnelser</h3><p>Påminnelse före varje deklarations- och betalningsdag.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_paminnelser">Det här behöver jag</a>
+      </article>
     </div>
   </section>
 
-  <section id="exempel" data-view="example_view">
-    <h2>Exempel (påhittade uppgifter)</h2>
-    <p class="fine">Enskild firma inom webbdesign, momsregistrerad, redovisar moms kvartalsvis. Kvartal 3: 9 fakturor och 23 kvitton bokförda, två kvitton saknas för kortköp — påminnelse. Momsdeklarationen klar, i februari förbereds NE-bilagan ur hela årets bokföring.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Välj paket</a>
+  <section id="exempel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exempel</h2>
+      <p>Enskild firma inom webbdesign, momsregistrerad, redovisar moms kvartalsvis. Kvartal 3: 9 fakturor och 23 kvitton bokförda, två kvitton saknas för kortköp — påminnelse. Momsdeklarationen klar, i februari förbereds NE-bilagan ur hela årets bokföring.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Välj paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">webbdesign</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">kvartalsvis</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">februari</text><rect x="120" y="300" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">kvitton bokförda</text><text x="170" y="460" font-size="32" fill="#566174">hela årets</text><rect x="170" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="260" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="350" y="530" width="64" height="64" fill="#12397a" rx="12" /><rect x="440" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="530" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="620" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Så fungerar det</h2>
-    <p>Den som driver enskild firma i Sverige ska föra bokföring, redovisa moms om firman är momsregistrerad och lämna NE-bilagan med inkomstdeklarationen varje år. För många är det inte själva verksamheten som tar tid, utan pappersarbetet: kvitton i plånboken, fakturor i mejlen och en deklaration som skjuts upp till sista dagen.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Så fungerar det</h2></div>
+    <div class="stack">
+      <p>Den som driver enskild firma i Sverige ska föra bokföring, redovisa moms om firman är momsregistrerad och lämna NE-bilagan med inkomstdeklarationen varje år. För många är det inte själva verksamheten som tar tid, utan pappersarbetet: kvitton i plånboken, fakturor i mejlen och en deklaration som skjuts upp till sista dagen.</p>
     <p>Bokföringsprogram för små företag kostar några hundra kronor i månaden, och bokslut och NE-bilaga säljs ibland som tillägg. Firma Enkel samlar det en enskild firma behöver i ett paket: löpande bokföring, momsdeklaration och NE-bilaga, med tydliga steg och påminnelser.</p>
     <p>Under året fotograferar du kvitton med mobilen direkt efter köpet och laddar upp eller vidarebefordrar fakturor. Kontoutdraget från banken läses in, och varje transaktion kopplas till sitt underlag. Saknas ett kvitto ser du det direkt, i stället för vid årets slut.</p>
     <p>Bokföringen sker enligt reglerna för enskild firma, med förslag på rätt konto för varje kostnad. Du godkänner förslagen eller ändrar dem; programmet lär sig hur du brukar bokföra återkommande köp.</p>
@@ -118,31 +152,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Inför momsdeklarationen får du en påminnelse några dagar innan. Siffrorna är redan framräknade, och du ser varifrån varje belopp kommer. Om något ser fel ut kan du öppna transaktionen och rätta den innan du lämnar deklarationen.</p>
     <p>Om du har både enskild firma och anställning hjälper tjänsten dig att hålla isär firmans kostnader och privata utgifter, så att NE-bilagan bara innehåller det som hör till verksamheten.</p>
     <p>Firma Enkel är inte Skatteverket och inte en redovisningsbyrå. Du lämnar deklarationerna själv och ansvarar för dem; tjänsten förbereder underlaget.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Vanliga frågor</h2>
-    <h3>Vem passar tjänsten för?</h3>
-    <p>Enskilda näringsidkare som vill sköta bokföring, moms och NE-bilaga själva med tydligt stöd.</p>
-    <h3>Lämnar ni deklarationen åt mig?</h3>
-    <p>Nej. Vi förbereder momsdeklarationen och NE-bilagan; du lämnar dem själv hos Skatteverket.</p>
-    <h3>Hur kommer kvittona in?</h3>
-    <p>Du fotograferar dem med mobilen eller laddar upp och vidarebefordrar fakturor.</p>
-    <h3>Kan jag börja mitt i året?</h3>
-    <p>Ja, ingående saldon och tidigare bokföring kan läsas in.</p>
-    <h3>Kan jag använda tjänsten redan nu?</h3>
-    <p>Inte ännu. Tjänsten förbereds, och vi undersöker om företagare behöver den.</p>
+    <div class="stack"><h2>Vanliga frågor</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Vem passar tjänsten för?</h3><p>Enskilda näringsidkare som vill sköta bokföring, moms och NE-bilaga själva med tydligt stöd.</p></div>
+      <div class="split flip"><h3>Lämnar ni deklarationen åt mig?</h3><p>Nej. Vi förbereder momsdeklarationen och NE-bilagan; du lämnar dem själv hos Skatteverket.</p></div>
+      <div class="split flip"><h3>Hur kommer kvittona in?</h3><p>Du fotograferar dem med mobilen eller laddar upp och vidarebefordrar fakturor.</p></div>
+      <div class="split flip"><h3>Kan jag börja mitt i året?</h3><p>Ja, ingående saldon och tidigare bokföring kan läsas in.</p></div>
+      <div class="split flip"><h3>Kan jag använda tjänsten redan nu?</h3><p>Inte ännu. Tjänsten förbereds, och vi undersöker om företagare behöver den.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Lägg till ditt första kvitto</h2>
-    <p><label>Hur redovisar du moms<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— välj —</option><option>Inte momsregistrerad</option><option>Per år</option><option>Per kvartal</option><option>Per månad</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Lägg till kvitto</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Lägg till ditt första kvitto</h2>
+    </div>
+    <div class="tile stack">
+      <label>Hur redovisar du moms<select data-ev-focus="form_start"><option value="">— välj —</option><option>Inte momsregistrerad</option><option>Per år</option><option>Per kvartal</option><option>Per månad</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Lägg till kvitto</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Firma Enkel</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Integritetspolicy</a></p>
-  <p class="muted">Vi är inte Skatteverket och inte en redovisningsbyrå. Du lämnar deklarationerna själv och ansvarar för dem.</p>
+  <p>Vi är inte Skatteverket och inte en redovisningsbyrå. Du lämnar deklarationerna själv och ansvarar för dem.</p>
 </div></footer>
 
 </body>
